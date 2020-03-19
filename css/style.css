@@ -85,4 +85,19 @@ main {
   align-items: center;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #579c90;
+  color: orange;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
