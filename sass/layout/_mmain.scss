@@ -2,3 +2,19 @@ body {
     margin: 0;
     background-color: white;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.menu_cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-right: 12px;
+    padding-left: 12px;
+}
