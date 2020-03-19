@@ -59,6 +59,15 @@ main {
   height: 100%;
 }
 
+.menu_card {
+  display: flex;
+  justify-content: center;
+}
+.menu_card img {
+  width: 50px;
+  height: 100%;
+}
+
 .menu_soon {
   display: flex;
   justify-content: center;
