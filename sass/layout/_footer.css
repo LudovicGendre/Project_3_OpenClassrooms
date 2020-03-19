@@ -10,5 +10,18 @@ footer {
   width: 100%;
   background-color: #579c90;
   color: orange;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mention_legals a,
+.contact_us a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   text-decoration: none;
+  height: 100%;
 }
