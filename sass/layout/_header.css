@@ -16,4 +16,6 @@ header a {
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: orange;
+  text-decoration: none;
 }
