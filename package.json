@@ -1,0 +1,19 @@
+{
+  "name": "p3_gendre_ludovic",
+  "version": "1.0.0",
+  "description": "Projet 3 OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LudovicGendre/Project_3_OpenClassrooms.git"
+  },
+  "author": "Ludovic Gendre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LudovicGendre/Project_3_OpenClassrooms/issues"
+  },
+  "homepage": "https://github.com/LudovicGendre/Project_3_OpenClassrooms#readme"
+}
