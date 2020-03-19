@@ -41,4 +41,20 @@ main {
   padding-left: 12px;
 }
 
+.menu {
+  height: 300px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.menu_soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
