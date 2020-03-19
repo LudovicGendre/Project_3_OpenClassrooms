@@ -60,12 +60,22 @@ main {
 }
 
 .menu_card {
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
 }
 .menu_card img {
   width: 50px;
   height: 100%;
+}
+
+.menu_title {
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.menu_menu {
+  margin-top: 0;
 }
 
 .menu_soon {
