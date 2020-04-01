@@ -1,3 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   display: flex;
   overflow: hidden;
@@ -20,28 +40,25 @@ header a {
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-  background-color: white;
-}
-
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  box-sizing: border-box;
+  padding: 40px 12px;
 }
-
-.menu_cards {
+main > .menu_soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+main > .menu_cards {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding-right: 12px;
-  padding-left: 12px;
 }
-
-.menu {
+main > .menu_cards > .menu {
   background-color: orange;
   height: 300px;
   width: 200px;
@@ -51,7 +68,7 @@ main {
   justify-content: center;
   align-items: stretch;
 }
-.menu a {
+main > .menu_cards > .menu a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,12 +94,6 @@ main {
 
 .menu_menu {
   margin-top: 0;
-}
-
-.menu_soon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 footer {
