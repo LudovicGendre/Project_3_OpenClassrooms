@@ -1,0 +1,13 @@
+.menu_cards {
+    &--mention {
+        min-height: 85%;
+        justify-content: flex-start;
+    }
+
+    > .mention{
+        text-align: center;
+        margin: 16px auto 16px auto;
+        width: 65%;
+    }
+}
+

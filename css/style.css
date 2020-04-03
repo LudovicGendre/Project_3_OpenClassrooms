@@ -204,4 +204,14 @@ footer .mention_legals a, footer .contact_us a {
   background-color: #fdfffc;
 }
 
+.menu_cards--mention {
+  min-height: 85%;
+  justify-content: flex-start;
+}
+.menu_cards > .mention {
+  text-align: center;
+  margin: 16px auto 16px auto;
+  width: 65%;
+}
+
 /*# sourceMappingURL=style.css.map */
