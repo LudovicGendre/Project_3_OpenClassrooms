@@ -32,6 +32,11 @@ body footer {
   font-weight: 500;
   font-size: 14px;
 }
+body .btn h2 {
+  font-family: "Montserrat", sans-serif, serif;
+  font-weight: 400;
+  font-size: 20px;
+}
 
 .btn {
   display: flex;
