@@ -140,20 +140,35 @@ footer {
   width: 100%;
   background-color: #579c90;
   color: orange;
+  min-height: 6%;
 }
 footer div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.mention_legals a, .contact_us a {
+footer .mention_legals a, footer .contact_us a {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   text-decoration: none;
   height: 100%;
+}
+
+@media all and (max-width: 300px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .contact_us {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .mention_legals {
+    margin-bottom: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
