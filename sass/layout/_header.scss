@@ -3,6 +3,7 @@ header{
     overflow: hidden;
     background-color: $first-color;
     color: $second-color;
+    min-height: 10%;
     h1{
         display: flex;
         margin: auto;
@@ -15,7 +16,6 @@ header{
         justify-content: center;
         align-items: center;
         width: 100%;
-        color: orange;
-        text-decoration: none;
+        color: $second-color;
     }
 }
