@@ -1,68 +1,81 @@
-
-
-main {
+main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: relative;
-    padding: 40px 12px;
+    justify-content: space-around;
+    min-height: 85%;
+}
 
-    > .menu_soon {
+.menu_cards{
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding-top: 40px;
-    }
-    > .menu_cards{
+        position: relative;
+        box-sizing: border-box;
+        min-height: 75%;
+        order: 1;
+}
+
+.menu_selecteur {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        @media all and (max-width: 840px) {}
-
-        > .menu {
-            background-color: orange;
-            height: 300px;
-            width: 200px;
-            margin: auto;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: stretch;
-            ///padding: 0px 5px;
-            a{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                height: 100%;
-            }  
-        }
+        padding-left: 48px;
+        padding-right: 48px;
     }
-}
+
+.menu_soon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10%;
+        padding: 2% 0 2% 0;
+        order: 2;
+    }
+
+
+
+
+
+
+// main {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     position: relative;
+//     padding: 40px 12px;
+
+//     > .menu_soon {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         padding-top: 40px;
+//     }
+//     > .menu_cards{
+//         display: flex;
+//         flex-flow: row wrap;
+//         justify-content: space-around;
+//         @media all and (max-width: 840px) {}
+
+//         > .menu {
+//             background-color: $second-color;
+//             height: 300px;
+//             width: 200px;
+//             margin: auto;
+//             text-align: center;
+//             display: flex;
+//             justify-content: center;
+//             align-items: stretch;
+//             ///padding: 0px 5px;
+//             a{
+//                 display: flex;
+//                 flex-direction: column;
+//                 justify-content: center;
+//                 align-items: center;
+//                 width: 100%;
+//                 height: 100%;
+//             }  
+//         }
+//     }
+// }
     
-
-
-
-
-
-.menu_card{
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-    img{
-        width: 50px;
-        height: 100%;
-    }
-}
-
-.menu_title {
-    margin-top: 0;
-    padding-left: 10px;
-}
-
-.menu_menu {
-    margin-top: 0;
-}
-
 
