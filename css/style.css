@@ -229,4 +229,11 @@ footer .mention_legals a, footer .contact_us a {
   margin-top: 30px;
 }
 
+.list_decoration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
