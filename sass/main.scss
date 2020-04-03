@@ -2,11 +2,13 @@
 @import"./base/base";
 @import"./base/typography";
 
-
+// Abstracts
 @import"./abstracts/variable";
 
+// components
 @import"./components/btn";
 
+// Layout
 @import "./layout/header";
 @import "./layout/mmain";
 @import "./layout/footer";
@@ -14,3 +16,4 @@
 // Pages
 @import "./pages/home";
 @import"./pages/mention";
+@import"./pages/cards";
