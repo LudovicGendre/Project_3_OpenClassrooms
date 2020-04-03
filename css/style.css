@@ -158,6 +158,8 @@ footer .mention_legals a, footer .contact_us a {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  box-shadow: 0.5px 0.5px 8px #cfcece;
+  opacity: 1;
 }
 .menu a {
   display: flex;
