@@ -12,8 +12,7 @@ body {
   box-sizing: border-box;
   height: 100vh;
 }
-
-a {
+body a {
   text-decoration: none;
   color: inherit;
 }
@@ -21,6 +20,7 @@ a {
 .btn {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: orange;
   color: white;
   width: 180px;
