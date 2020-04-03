@@ -25,6 +25,12 @@ body header {
   font-family: "Montserrat", sans-serif, serif;
   font-weight: 600;
   font-size: 16px;
+  letter-spacing: -2px;
+}
+body footer {
+  font-family: "Montserrat", sans-serif, serif;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .btn {
