@@ -217,23 +217,45 @@ footer .mention_legals a, footer .contact_us a {
 .list_menu {
   margin: auto;
 }
-
-.list_img {
+.list_menu .list_img {
   text-align: center;
   margin: 0;
 }
-
-.list_icon {
+.list_menu .list_icon {
   width: 40px;
   height: 100%;
   margin-top: 30px;
 }
-
-.list_decoration {
+.list_menu .list_decoration {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
+}
+.list_menu .list_decoration img {
+  height: 100%;
+  width: 140px;
+}
+.list_menu .list_decoration h3 {
+  text-align: center;
+}
+.list_menu article ul {
+  list-style: none;
+  padding: 0;
+}
+.list_menu article ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.list_menu .list_footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.list_menu .list_footer img {
+  width: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
