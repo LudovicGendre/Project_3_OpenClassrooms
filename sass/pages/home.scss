@@ -1,5 +1,4 @@
 .menu {
-    background-color: $second-color;
     height: 300px;
     width: 200px;
     min-height: 128px;
@@ -38,3 +37,18 @@
     margin-top: 0;
 }
 
+.menu_note {
+    background-color: $note-color;
+}
+
+.menu_chic {
+    background-color: $chic-color;
+}
+
+.menu_delice {
+    background-color: $delice-color;
+}
+
+.menu_palette {
+    background-color: $palette-color;
+}

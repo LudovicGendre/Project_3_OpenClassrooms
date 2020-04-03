@@ -149,7 +149,6 @@ footer .mention_legals a, footer .contact_us a {
   }
 }
 .menu {
-  background-color: orange;
   height: 300px;
   width: 200px;
   min-height: 128px;
@@ -185,6 +184,22 @@ footer .mention_legals a, footer .contact_us a {
 
 .menu_menu {
   margin-top: 0;
+}
+
+.menu_note {
+  background-color: #fcdfdb;
+}
+
+.menu_chic {
+  background-color: #fff5fe;
+}
+
+.menu_delice {
+  background-color: #f3f3f3;
+}
+
+.menu_palette {
+  background-color: #fdfffc;
 }
 
 /*# sourceMappingURL=style.css.map */
