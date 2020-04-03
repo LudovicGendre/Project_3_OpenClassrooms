@@ -2,3 +2,8 @@
 body {
   font-family: "Montserrat", sans-serif, serif;
 }
+body header {
+  font-family: "Montserrat", sans-serif, serif;
+  font-weight: 600;
+  font-size: 16px;
+}
