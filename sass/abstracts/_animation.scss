@@ -6,3 +6,18 @@
         transform: translateX(-5% * 1);
     }
 }
+
+
+@keyframes soon {
+
+    0%{
+       opacity: .2; 
+    }
+    20%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .2;
+    }
+
+}
