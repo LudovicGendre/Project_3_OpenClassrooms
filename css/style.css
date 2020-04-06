@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Chilanka|Devonshire|Itim|Kaushan+Script&display=swap");
 *,
 *::before,
 *::after {
@@ -213,7 +214,12 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   background-color: #fcdfdb;
 }
 .menu_note .menu_title {
-  font-family: "Dancing Script", sans-serif, serif;
+  font-family: "Devonshire", sans-serif, serif;
+  font-weight: inherit;
+}
+.menu_note .menu_menu {
+  font-family: "Itim", sans-serif, serif;
+  font-size: 32px;
 }
 
 .menu_chic {

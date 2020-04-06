@@ -11,10 +11,10 @@
     box-shadow: 0.5px 0.5px 8px rgb(207, 206, 206);
     opacity: 1;
     transition: opacity 500ms;
-    &:hover{
+    &:hover {
         opacity: 0.5;
     }
-    a{
+    a {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -28,15 +28,15 @@
         }
     }
 
-     > .menu_card {
-         margin-bottom: 0;
-         display: flex;
-         justify-content: center;
-         img{
+    > .menu_card {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        img {
             width: 24px;
             height: 100%;
-         }
-     }
+        }
+    }
 }
 
 .menu_title {
@@ -50,9 +50,14 @@
 
 .menu_note {
     background-color: $note-color;
-    
+
     .menu_title {
-        font-family: "Dancing Script", sans-serif, serif;
+        font-family: "Devonshire", sans-serif, serif;
+        font-weight: inherit;
+    }
+    .menu_menu {
+        font-family: "Itim", sans-serif, serif;
+        font-size: 32px;
     }
 }
 
