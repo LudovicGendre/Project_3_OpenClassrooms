@@ -216,6 +216,12 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 .menu a:hover {
   transform: scale(1.15);
 }
+@media all and (min-width: 1024px) {
+  .menu {
+    height: 520px;
+    width: 340px;
+  }
+}
 .menu > .menu_card {
   margin-bottom: 0;
   display: flex;
