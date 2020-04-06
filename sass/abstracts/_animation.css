@@ -3,6 +3,6 @@
     transform: translateX(5%);
   }
   75% {
-    transform: translateX(5%);
+    transform: translateX(-5%);
   }
 }

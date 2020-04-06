@@ -45,7 +45,7 @@ body .btn h2 {
     transform: translateX(5%);
   }
   75% {
-    transform: translateX(5%);
+    transform: translateX(-5%);
   }
 }
 .btn {
@@ -164,7 +164,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 .menu {
   height: 300px;
   width: 200px;
-  min-height: 128px;
+  min-height: 125px;
   min-width: 96px;
   margin: 24px 16px 24px 16px;
   text-align: center;
@@ -173,7 +173,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   align-items: stretch;
   box-shadow: 0.5px 0.5px 8px #cfcece;
   opacity: 1;
-  transition: opacity 500ms;
+  transition: opacity 400ms;
 }
 .menu:hover {
   opacity: 0.5;
@@ -186,7 +186,8 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   width: 100%;
   height: 100%;
   transform: scale(1);
-  transition: transform 500ms;
+  transition: transform 400ms;
+  animation: ease-in;
 }
 .menu a:hover {
   transform: scale(1.15);
