@@ -43,8 +43,8 @@ body .btn h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: orange;
-  color: white;
+  background-color: #579c90;
+  color: #ffd900;
   width: 180px;
   height: 30px;
   border-radius: 0.5rem;
@@ -55,7 +55,7 @@ header {
   display: flex;
   overflow: hidden;
   background-color: #579c90;
-  color: orange;
+  color: #ffd900;
   min-height: 10%;
 }
 header h1 {
@@ -70,7 +70,7 @@ header a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: orange;
+  color: #ffd900;
 }
 
 main {
@@ -118,7 +118,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #579c90;
-  color: orange;
+  color: #ffd900;
   min-height: 6%;
 }
 footer div {
