@@ -52,7 +52,6 @@
 
 .menu_note {
     background-color: $note-color;
-
     .menu_title {
         font-family: "Devonshire", sans-serif, serif;
         font-weight: inherit;
@@ -65,6 +64,14 @@
 
 .menu_chic {
     background-color: $chic-color;
+    color: rgb(209,113,34);;
+    .menu_title{
+        background: rgb(209,113,34);
+        background: linear-gradient(90deg, rgba(209,113,34,1) 0%, rgba(166,102,154,1) 35%, rgba(107,48,235,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
 }
 
 .menu_delice {

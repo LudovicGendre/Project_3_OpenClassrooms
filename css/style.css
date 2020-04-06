@@ -249,6 +249,13 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 
 .menu_chic {
   background-color: #fff5fe;
+  color: #d17122;
+}
+.menu_chic .menu_title {
+  background: #d17122;
+  background: linear-gradient(90deg, #d17122 0%, #a6669a 35%, #6b30eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu_delice {
