@@ -24,6 +24,9 @@ footer{
             text-align: center;
             text-decoration: none;
             height: 100%;
+            &:hover {
+                transform: translateX(5%);
+            }
         }
     }
 }
