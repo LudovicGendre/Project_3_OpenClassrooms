@@ -26,7 +26,6 @@
         animation: ease-in;
         &:hover {
             transform: scale(1.15);
-            
         }
     }
 
@@ -64,20 +63,48 @@
 
 .menu_chic {
     background-color: $chic-color;
-    color: rgb(209,113,34);;
-    .menu_title{
-        background: rgb(209,113,34);
-        background: linear-gradient(90deg, rgba(209,113,34,1) 0%, rgba(166,102,154,1) 35%, rgba(107,48,235,1) 100%);
+    color: rgb(209, 113, 34);
+    .menu_title {
+        background: rgb(209, 113, 34);
+        background: linear-gradient(
+            90deg,
+            rgba(209, 113, 34, 1) 0%,
+            rgba(166, 102, 154, 1) 35%,
+            rgba(107, 48, 235, 1) 100%
+        );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
 }
 
 .menu_delice {
     background-color: $delice-color;
+    color: rgba(86, 167, 230, 1);
+    .menu_title {
+        background: rgb(21, 48, 183);
+        background: linear-gradient(
+            90deg,
+            rgba(21, 48, 183, 1) 0%,
+            rgba(86, 167, 230, 1) 35%,
+            rgba(86, 167, 230, 1) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .menu_palette {
     background-color: $palette-color;
+    color: rgb(85, 146, 77);
+    .menu_title {
+        background: rgb(85, 146, 77);
+        background: linear-gradient(
+            90deg,
+            rgba(85, 146, 77, 1) 0%,
+            rgba(136, 189, 60, 1) 35%,
+            rgba(200, 250, 128, 1) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }

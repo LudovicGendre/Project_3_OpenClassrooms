@@ -260,10 +260,24 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 
 .menu_delice {
   background-color: #f3f3f3;
+  color: #56a7e6;
+}
+.menu_delice .menu_title {
+  background: #1530b7;
+  background: linear-gradient(90deg, #1530b7 0%, #56a7e6 35%, #56a7e6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu_palette {
   background-color: #fdfffc;
+  color: #55924d;
+}
+.menu_palette .menu_title {
+  background: #55924d;
+  background: linear-gradient(90deg, #55924d 0%, #88bd3c 35%, #c8fa80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu_cards--mention {
