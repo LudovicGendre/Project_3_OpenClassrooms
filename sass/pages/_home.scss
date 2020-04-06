@@ -41,6 +41,10 @@
 
 .menu_note {
     background-color: $note-color;
+    
+    .menu_title {
+        font-family: "Dancing Script", sans-serif, serif;
+    }
 }
 
 .menu_chic {
