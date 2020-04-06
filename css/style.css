@@ -238,48 +238,53 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   width: 65%;
 }
 
-.list_menu {
+.menu_cards--list {
+  min-height: 85%;
+  justify-content: flex-start;
+}
+.menu_cards .list_menu {
   background-color: #fcdfdb;
   margin: auto;
+  box-shadow: 0.5px 0.5px 8px #cfcece;
 }
-.list_menu .list_img {
+.menu_cards .list_menu .list_img {
   text-align: center;
   margin: 0;
 }
-.list_menu .list_icon {
+.menu_cards .list_menu .list_icon {
   width: 40px;
   height: 100%;
   margin-top: 30px;
 }
-.list_menu .list_decoration {
+.menu_cards .list_menu .list_decoration {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
 }
-.list_menu .list_decoration img {
+.menu_cards .list_menu .list_decoration img {
   height: 100%;
   width: 140px;
 }
-.list_menu .list_decoration h3 {
+.menu_cards .list_menu .list_decoration h3 {
   text-align: center;
 }
-.list_menu article ul {
+.menu_cards .list_menu article ul {
   list-style: none;
   padding: 0;
 }
-.list_menu article ul li {
+.menu_cards .list_menu article ul li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
 }
-.list_menu .list_footer {
+.menu_cards .list_menu .list_footer {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-bottom: 15px;
 }
-.list_menu .list_footer img {
+.menu_cards .list_menu .list_footer img {
   width: 30px;
 }
 
