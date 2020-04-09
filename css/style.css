@@ -259,7 +259,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 }
 .menu_chic .menu_title {
   background: #d17122;
-  background: linear-gradient(90deg, #d17122 0%, #a6669a 35%, #6b30eb 100%);
+  background: linear-gradient(90deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -270,7 +270,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 }
 .menu_delice .menu_title {
   background: #1530b7;
-  background: linear-gradient(90deg, #1530b7 0%, #56a7e6 35%, #56a7e6 100%);
+  background: linear-gradient(90deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -384,6 +384,12 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 }
 .menu_cards .list_menu--chic article:nth-of-type(3) h3 {
   color: #6b30eb;
+}
+.menu_cards .list_menu--delice .list_title {
+  background: #1530b7;
+  background: linear-gradient(90deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
