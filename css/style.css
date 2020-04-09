@@ -301,7 +301,6 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   justify-content: flex-start;
 }
 .menu_cards .list_menu {
-  background-color: #fcdfdb;
   margin: auto;
   box-shadow: 0.5px 0.5px 8px #cfcece;
 }
@@ -341,10 +340,35 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 15px;
 }
 .menu_cards .list_menu .list_footer img {
   width: 30px;
+}
+.menu_cards .list_menu--note {
+  background-color: #fcdfdb;
+}
+.menu_cards .list_menu--note .list_img {
+  font-family: "Devonshire", sans-serif, serif;
+  font-weight: inherit;
+}
+.menu_cards .list_menu--note .list_footer {
+  font-family: "Devonshire", sans-serif, serif;
+  font-weight: inherit;
+}
+.menu_cards .list_menu--note article {
+  font-family: "Itim", sans-serif, serif;
+}
+.menu_cards .list_menu--chic {
+  background-color: #fff5fe;
+}
+.menu_cards .list_menu--chic .list_title {
+  background: #d17122;
+  background: linear-gradient(90deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu_cards .list_menu--chic article:nth-of-type(1) ul {
+  color: #d17122;
 }
 
 /*# sourceMappingURL=style.css.map */

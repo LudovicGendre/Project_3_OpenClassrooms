@@ -4,7 +4,6 @@
         justify-content: flex-start;
     }
     .list_menu {
-        background-color: $note-color;
         margin: auto;
         box-shadow: 0.5px 0.5px 8px rgb(207, 206, 206);
         .list_img {
@@ -29,6 +28,7 @@
                 text-align: center;
             }
         }
+
         article {
             ul {
                 list-style: none;
@@ -48,7 +48,45 @@
             img {
                 width: 30px;
             }
-            margin-bottom: 15px;
+        }
+
+        &--note {
+            background-color: $note-color;
+            .list_img {
+                font-family: "Devonshire", sans-serif, serif;
+                font-weight: inherit;
+            }
+            .list_footer {
+                font-family: "Devonshire", sans-serif, serif;
+                font-weight: inherit;
+            }
+            article {
+                font-family: "Itim", sans-serif, serif;
+            }
+        }
+
+        &--chic {
+            background-color: $chic-color;
+            .list_title {
+                background: rgb(209, 113, 34);
+                background: linear-gradient(
+                    90deg,
+                    rgba(209, 113, 34, 1) 10%,
+                    rgba(166, 102, 154, 1) 60%,
+                    rgba(107, 48, 235, 1) 80%
+                );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            article{
+                ul{
+                }
+                &:nth-of-type(1) {
+                    ul{
+                        color: rgba(209, 113, 34, 1);
+                    }
+                }
+            }
         }
     }
 }
