@@ -334,6 +334,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 .menu_cards .list_menu article ul li {
   display: flex;
   justify-content: space-between;
+  padding: 0;
   margin-bottom: 12px;
 }
 .menu_cards .list_menu .list_footer {
