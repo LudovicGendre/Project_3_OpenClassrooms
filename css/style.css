@@ -385,6 +385,9 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 .menu_cards .list_menu--chic article:nth-of-type(3) h3 {
   color: #6b30eb;
 }
+.menu_cards .list_menu--delice {
+  background-color: #f3f3f3;
+}
 .menu_cards .list_menu--delice .list_title {
   background: #1530b7;
   background: linear-gradient(90deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
