@@ -370,5 +370,11 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 .menu_cards .list_menu--chic article:nth-of-type(1) ul {
   color: #d17122;
 }
+.menu_cards .list_menu--chic article:nth-of-type(2) ul {
+  color: #a6669a;
+}
+.menu_cards .list_menu--chic article:nth-of-type(3) ul {
+  color: #6b30eb;
+}
 
 /*# sourceMappingURL=style.css.map */
