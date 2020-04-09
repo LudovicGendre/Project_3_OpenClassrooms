@@ -281,7 +281,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 }
 .menu_palette .menu_title {
   background: #55924d;
-  background: linear-gradient(90deg, #55924d 0%, #88bd3c 35%, #c8fa80 100%);
+  background: linear-gradient(90deg, #55924d 10%, #88bd3c 60%, #c8fa80 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -391,6 +391,15 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 .menu_cards .list_menu--delice .list_title {
   background: #1530b7;
   background: linear-gradient(90deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu_cards .list_menu--palette {
+  background-color: #fdfffc;
+}
+.menu_cards .list_menu--palette .list_title {
+  background: #55924d;
+  background: linear-gradient(90deg, #55924d 10%, #88bd3c 60%, #c8fa80 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
