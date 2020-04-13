@@ -134,7 +134,7 @@ main {
   order: 2;
 }
 .menu_soon span {
-  font-size: 25px;
+  font-size: 33px;
   animation: soon;
   animation-duration: 1400ms;
   animation-iteration-count: infinite;
@@ -229,13 +229,13 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
     width: 340px;
   }
 }
-.menu > .menu_card {
+.menu .menu_card {
   margin-bottom: 0;
   display: flex;
   justify-content: center;
 }
-.menu > .menu_card img {
-  width: 24px;
+.menu .menu_card img {
+  width: 36px;
   height: 100%;
 }
 
@@ -351,7 +351,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 }
 .menu_cards .list_menu .list_decoration img {
   height: 100%;
-  width: 140px;
+  width: 24px;
 }
 .menu_cards .list_menu .list_decoration h3 {
   text-align: center;

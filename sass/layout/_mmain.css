@@ -29,7 +29,7 @@ main {
   order: 2;
 }
 .menu_soon span {
-  font-size: 25px;
+  font-size: 33px;
   animation: soon;
   animation-duration: 1400ms;
   animation-iteration-count: infinite;
