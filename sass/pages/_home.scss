@@ -62,6 +62,7 @@
     }
     .menu_menu {
         font-family: "Itim", sans-serif, serif;
+        font-style: italic;
         font-size: 32px;
     }
 }
@@ -70,6 +71,8 @@
     background-color: $chic-color;
     color: rgb(209, 113, 34);
     .menu_title {
+        font-family: "Kurale", sans-serif, serif;
+        font-weight: 600;
         background: rgb(209, 113, 34);
         background: linear-gradient(
             90deg,
@@ -80,12 +83,20 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .menu_menu{
+        font-family: "Abril Fatface", sans-serif, serif;
+        font-weight: normal;
+        font-size: 32px;
+    }
 }
 
 .menu_delice {
     background-color: $delice-color;
     color: rgba(86, 167, 230, 1);
     .menu_title {
+        font-family: "Dancing Script", sans-serif, serif;
+        font-weight: 500;
+        font-size: 29px;
         background: rgb(21, 48, 183);
         background: linear-gradient(
             90deg,
@@ -96,12 +107,19 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .menu_menu{
+        font-family: "Chilanka", sans-serif, serif;
+        font-size: 32px;
+    }
 }
 
 .menu_palette {
     background-color: $palette-color;
     color: rgb(85, 146, 77);
     .menu_title {
+        font-family: "Kaushan Script";
+        font-weight: 500;
+        font-size: 29px;
         background: rgb(85, 146, 77);
         background: linear-gradient(
             90deg,
@@ -111,5 +129,10 @@
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    .menu_menu{
+        font-family: "Chilanka", sans-serif, serif;
+        font-weight: 400;
+        font-size: 32px;
     }
 }
