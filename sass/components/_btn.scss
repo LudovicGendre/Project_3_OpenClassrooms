@@ -8,4 +8,13 @@
     height: 30px;
     border-radius: 0.5rem;
     max-height: 100%;
+
+    @media all and (max-width: 200px) {
+        width: 140px;
+        height: 32px;
+      }
+      @media all and (min-width: 1015px) and (min-height: 1000px) {
+        width: 250px;
+        height: 43px;
+      }
 }
