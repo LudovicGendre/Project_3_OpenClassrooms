@@ -26,10 +26,25 @@ body footer {
   font-weight: 500;
   font-size: 14px;
 }
+@media all and (min-height: 1000px) {
+  body footer {
+    font-size: 24px;
+  }
+}
 body .btn h2 {
   font-family: "Montserrat", sans-serif, serif;
   font-weight: 400;
   font-size: 20px;
+}
+@media all and (min-width: 1015px) and (min-height: 1000px) {
+  body .btn h2 {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 200px) {
+  body .btn h2 {
+    font-size: 14px;
+  }
 }
 body .menu h2 {
   margin-block-start: 0.83em;
