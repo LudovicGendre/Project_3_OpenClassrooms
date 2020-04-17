@@ -11,6 +11,16 @@ body header {
   font-size: 24px;
   letter-spacing: -2px;
 }
+@media all and (min-height: 1000px) {
+  body header {
+    font-size: 24px;
+  }
+}
+@media all and (min-width: 1000px) {
+  body header {
+    font-size: 24px;
+  }
+}
 body footer {
   font-family: "Montserrat", sans-serif, serif;
   font-weight: 500;

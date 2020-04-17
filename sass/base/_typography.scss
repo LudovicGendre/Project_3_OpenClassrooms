@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Chilanka|Devonshire|Itim|Kaushan+Script&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Kurale&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Kurale&display=swap");
 
 body {
     font-family: "Montserrat", sans-serif, serif;
@@ -11,6 +11,12 @@ body {
         font-weight: 600;
         font-size: 24px;
         letter-spacing: -2px;
+        @media all and (min-height: 1000px) {
+            font-size: 24px;
+        }
+        @media all and (min-width: 1000px) {
+            font-size: 24px;
+        }
     }
 
     footer {
@@ -34,6 +40,5 @@ body {
             margin-inline-start: 0px;
             margin-inline-end: 0px;
         }
-        
     }
 }
