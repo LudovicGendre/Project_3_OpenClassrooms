@@ -523,5 +523,62 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
     width: 50px;
   }
 }
+@media all and (min-width: 760px) and (max-width: 1024px) {
+  .menu_cards .list_menu {
+    width: 430px;
+    height: 750px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .menu_cards .list_menu article {
+    margin-top: 40px;
+  }
+  .menu_cards .list_menu .list_decoration img {
+    width: 160px;
+  }
+}
+@media all and (max-width: 760px) {
+  .menu_cards .list_menu article {
+    margin-top: 24px;
+  }
+  .menu_cards .list_menu article li {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media all and (max-width: 360px) {
+  .menu_cards .list_menu {
+    width: 190px;
+  }
+  .menu_cards .list_menu .list_icon {
+    width: 32px;
+  }
+  .menu_cards .list_menu article li {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu_cards .list_menu article .list_decoration img {
+    width: 64px;
+  }
+}
+@media all and (max-width: 260px) {
+  .menu_cards .list_menu {
+    width: 64px;
+  }
+  .menu_cards .list_menu .list_decoration img {
+    width: 16px;
+  }
+  .menu_cards .list_menu .list_icon {
+    width: 24px;
+  }
+  .menu_cards .list_menu .list_footer {
+    flex-direction: column;
+  }
+  .menu_cards .list_menu .list_footer img {
+    width: 24px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
