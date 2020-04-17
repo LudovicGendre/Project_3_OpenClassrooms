@@ -108,6 +108,12 @@ body .menu h2 {
     height: 32px;
   }
 }
+@media all and (min-width: 1450px) {
+  .btn {
+    width: 250px;
+    height: 45px;
+  }
+}
 @media all and (min-width: 1015px) and (min-height: 1000px) {
   .btn {
     width: 250px;
@@ -169,6 +175,9 @@ main {
   min-height: 10%;
   padding: 2% 0 2% 0;
   order: 2;
+}
+.menu_soon h2 {
+  margin-right: 12px;
 }
 .menu_soon span {
   font-size: 33px;
