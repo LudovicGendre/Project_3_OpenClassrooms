@@ -2,14 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Chilanka|Devonshire|Itim|Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Kurale&display=swap");
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
 body {
   margin: 0;
   background-color: white;
@@ -27,7 +20,7 @@ body {
 body header {
   font-family: "Montserrat", sans-serif, serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 15px;
   letter-spacing: -2px;
 }
 @media all and (min-height: 1000px) {
@@ -149,8 +142,7 @@ main {
   justify-content: space-around;
   min-height: 85%;
 }
-
-.menu_cards {
+main .menu_cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,16 +151,14 @@ main {
   min-height: 75%;
   order: 1;
 }
-
-.menu_selecteur {
+main .menu_cards .menu_selecteur {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding-left: 48px;
   padding-right: 48px;
 }
-
-.menu_soon {
+main .menu_soon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,10 +166,10 @@ main {
   padding: 2% 0 2% 0;
   order: 2;
 }
-.menu_soon h2 {
+main .menu_soon h2 {
   margin-right: 12px;
 }
-.menu_soon span {
+main .menu_soon span {
   font-size: 33px;
   margin-bottom: 15px;
   animation: soon;
@@ -187,10 +177,10 @@ main {
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 }
-.menu_soon span:nth-child(2) {
+main .menu_soon span:nth-child(2) {
   animation-delay: 200ms;
 }
-.menu_soon span:nth-child(3) {
+main .menu_soon span:nth-child(3) {
   animation-delay: 400ms;
 }
 
@@ -377,21 +367,34 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   min-height: 85%;
   justify-content: flex-start;
 }
+.menu_cards .list_header {
+  display: block;
+}
 .menu_cards .list_header h2 {
   text-align: center;
+  font-size: 20px;
+  width: 75%;
+  margin: 32px auto 8px auto;
 }
 .menu_cards .list_menu {
-  margin: auto;
+  margin: 0 auto 32px auto;
   box-shadow: 0.5px 0.5px 8px #cfcece;
+  width: 290px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .menu_cards .list_menu .list_img {
   text-align: center;
   margin: 0;
 }
+.menu_cards .list_menu .list_img h3 {
+  margin: 0;
+  font-weight: normal;
+}
 .menu_cards .list_menu .list_icon {
   width: 40px;
   height: 100%;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .menu_cards .list_menu .list_decoration {
   display: flex;
@@ -401,10 +404,11 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 }
 .menu_cards .list_menu .list_decoration img {
   height: 100%;
-  width: 24px;
+  width: 96px;
 }
 .menu_cards .list_menu .list_decoration h3 {
   text-align: center;
+  margin: 0;
 }
 .menu_cards .list_menu .list_decoration h3:hover::after {
   transform: scaleX(1);
@@ -419,6 +423,9 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   transition: 1000ms;
   transform-origin: 0% 50%;
 }
+.menu_cards .list_menu article {
+  margin: 0;
+}
 .menu_cards .list_menu article ul {
   list-style: none;
   padding: 0;
@@ -427,7 +434,13 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+}
+.menu_cards .list_menu article ul li .price {
+  margin: 0;
+}
+.menu_cards .list_menu article ul li .food {
+  margin: 0;
 }
 .menu_cards .list_menu .list_footer {
   display: flex;
@@ -449,7 +462,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   font-weight: inherit;
 }
 .menu_cards .list_menu--note article {
-  font-family: "Itim", sans-serif, serif;
+  font-family: "Kalam", sans-serif, serif;
 }
 .menu_cards .list_menu--chic {
   background-color: #fff5fe;
@@ -503,17 +516,17 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
     padding-left: 80px;
     padding-right: 80px;
   }
-  .menu_cards .list_menu .list_title {
-    font-size: 35px;
+  .menu_cards .list_menu .list_img .list_title {
+    font-size: 50px;
   }
   .menu_cards .list_menu article {
-    margin-top: 55px;
+    margin-top: 50px;
   }
   .menu_cards .list_menu .list_icon {
     width: 65px;
   }
   .menu_cards .list_menu .list_decoration h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .menu_cards .list_menu .list_decoration img {
     width: 240px;
@@ -523,7 +536,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
     font-size: 22px;
   }
   .menu_cards .list_menu li {
-    margin-top: 20px;
+    margin-top: 12px;
   }
   .menu_cards .list_menu .list_footer {
     font-size: 32px;
