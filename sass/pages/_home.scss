@@ -1,6 +1,6 @@
 .menu {
     height: 30vh;
-    width: 20vh;
+    width: 22vh;
     min-height: 125px;
     min-width: 96px;
     margin: 1.5vh 1vh 1.5vh 1vh;
@@ -38,9 +38,17 @@
         display: flex;
         justify-content: center;
         img {
-            width: 36px;
+            width: 24px;
             height: 100%;
-
+            @media all and (min-width: 1024px) {
+                width: 60px;
+            }
+            @media all and (min-width: 1015px) and (min-height: 1000px) {
+                width: 60px;
+            }
+            @media all and (min-width: 1015px) and (min-height: 1200px) {
+                width: 90px;
+            }
         }
     }
 }
@@ -48,11 +56,40 @@
 .menu_title {
     margin-top: 0;
     padding-left: 10px;
+    font-size: 16px;
+
+    @media all and (min-width: 1024px) {
+        font-size: 28px;
+      }
+      @media all and (min-height: 1000px) {
+        font-size: 24px;
+      }
+      @media all and (min-width: 1015px) and (min-height: 1000px) {
+        font-size: 40px;
+      }
+      @media all and (min-width: 1015px) and (min-height: 1200px) {
+        font-size: 45px;
+      }
 }
 
 .menu_menu {
     margin-top: 0;
+    font-size: 16px;
+
+    @media all and (min-width: 1024px) {
+        font-size: 28px;
+      }
+      @media all and (min-height: 1000px) {
+        font-size: 24px;
+      }
+      @media all and (min-width: 1015px) and (min-height: 1000px) {
+        font-size: 30px;
+      }
+      @media all and (min-width: 1015px) and (min-height: 1200px) {
+        font-size: 40px;
+      }
 }
+
 
 .menu_note {
     background-color: $note-color;
@@ -63,7 +100,6 @@
     .menu_menu {
         font-family: "Itim", sans-serif, serif;
         font-style: italic;
-        font-size: 32px;
     }
 }
 
@@ -83,10 +119,9 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .menu_menu{
+    .menu_menu {
         font-family: "Abril Fatface", sans-serif, serif;
         font-weight: normal;
-        font-size: 32px;
     }
 }
 
@@ -96,7 +131,6 @@
     .menu_title {
         font-family: "Dancing Script", sans-serif, serif;
         font-weight: 500;
-        font-size: 29px;
         background: rgb(21, 48, 183);
         background: linear-gradient(
             90deg,
@@ -107,9 +141,8 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .menu_menu{
+    .menu_menu {
         font-family: "Chilanka", sans-serif, serif;
-        font-size: 32px;
     }
 }
 
@@ -119,7 +152,6 @@
     .menu_title {
         font-family: "Kaushan Script";
         font-weight: 500;
-        font-size: 29px;
         background: rgb(85, 146, 77);
         background: linear-gradient(
             90deg,
@@ -130,9 +162,8 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .menu_menu{
+    .menu_menu {
         font-family: "Chilanka", sans-serif, serif;
         font-weight: 400;
-        font-size: 32px;
     }
 }
