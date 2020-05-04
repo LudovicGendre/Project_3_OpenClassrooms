@@ -136,8 +136,8 @@ main .menu_cards .menu_selecteur {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: 3vh;
+  padding-right: 3vh;
 }
 main .menu_soon {
   display: flex;
@@ -211,11 +211,11 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   }
 }
 .menu {
-  height: 300px;
-  width: 200px;
+  height: 30vh;
+  width: 20vh;
   min-height: 125px;
   min-width: 96px;
-  margin: 24px 16px 24px 16px;
+  margin: 1.5vh 1vh 1.5vh 1vh;
   text-align: center;
   display: flex;
   justify-content: center;

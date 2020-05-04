@@ -17,8 +17,8 @@ main .menu_cards .menu_selecteur {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: 3vh;
+  padding-right: 3vh;
 }
 main .menu_soon {
   display: flex;
