@@ -3,8 +3,8 @@
         min-height: 85%;
         justify-content: flex-start;
     }
-    .list_header{
-        h2{
+    .list_header {
+        h2 {
             text-align: center;
         }
     }
@@ -33,10 +33,10 @@
                 text-align: center;
                 &:hover {
                     &::after {
-                      transform: scaleX(1);
+                        transform: scaleX(1);
                     }
-                  }
-                  &::after {
+                }
+                &::after {
                     content: "";
                     border-bottom: solid 3px;
                     height: 100%;
@@ -45,7 +45,7 @@
                     transform: scaleX(0);
                     transition: 1000ms;
                     transform-origin: 0% 50%;
-                  }
+                }
             }
         }
 
@@ -162,7 +162,7 @@
             height: 1150px;
             padding-left: 80px;
             padding-right: 80px;
-            .list_title{
+            .list_title {
                 font-size: 35px;
             }
             article {
@@ -172,7 +172,7 @@
                 width: 65px;
             }
             .list_decoration {
-                h3{
+                h3 {
                     font-size: 28px;
                 }
                 img {
@@ -199,18 +199,17 @@
             height: 1150px;
             padding-left: 80px;
             padding-right: 80px;
-            .list_title{
+            .list_title {
                 font-size: 30px;
             }
             article {
                 margin-top: 55px;
-                
             }
             .list_icon {
                 width: 60px;
             }
             .list_decoration {
-                h3{
+                h3 {
                     font-size: 25px;
                 }
                 img {
@@ -231,29 +230,29 @@
                 }
             }
         }
-        @media all and (min-width: 760px) and (max-width: 1024px){
+        @media all and (min-width: 760px) and (max-width: 1024px) {
             width: 430px;
             height: 850px;
             padding-left: 20px;
             padding-right: 20px;
-            .list_title{
+            .list_title {
                 font-size: 24px;
             }
-            article{
+            article {
                 margin-top: 40px;
-                ul{
+                ul {
                     font-size: 12px;
                 }
             }
             .list_decoration {
-                h3{
+                h3 {
                     font-size: 18px;
                 }
                 img {
                     width: 160px;
                 }
             }
-            .list_footer{
+            .list_footer {
                 font-size: 22px;
             }
         }
@@ -267,54 +266,54 @@
                 }
             }
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 360px) {
             width: 190px;
-            .list_title{
+            .list_title {
                 font-size: 20px;
             }
             .list_icon {
                 width: 32px;
             }
-            article{
-                ul{
+            article {
+                ul {
                     font-size: 10px;
                 }
-                li{
+                li {
                     align-items: center;
                     flex-direction: column;
                     text-align: center;
                 }
-                .list_decoration{
+                .list_decoration {
                     font-size: 8px;
-                    img{
+                    img {
                         width: 64px;
                     }
                 }
             }
-            .list_footer{
+            .list_footer {
                 font-size: 18px;
             }
         }
-        @media all and (max-width: 260px){
+        @media all and (max-width: 260px) {
             width: 64px;
-            .list_title{
+            .list_title {
                 font-size: 18px;
             }
-            .list_decoration{
+            .list_decoration {
                 font-size: 6px;
                 img {
                     width: 16px;
                 }
             }
             article {
-                ul{
+                ul {
                     font-size: 8px;
                 }
             }
             .list_icon {
                 width: 24px;
             }
-            .list_footer{
+            .list_footer {
                 flex-direction: column;
                 font-size: 16px;
                 img {
