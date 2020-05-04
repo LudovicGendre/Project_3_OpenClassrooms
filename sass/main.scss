@@ -4,7 +4,7 @@
 
 // Abstracts
 @import"./abstracts/variable";
-@import "./abstracts/animation";
+
 
 // components
 @import"./components/btn";
@@ -18,3 +18,5 @@
 @import "./pages/home";
 @import"./pages/mention";
 @import"./pages/cards";
+
+@import "./abstracts/animation";
