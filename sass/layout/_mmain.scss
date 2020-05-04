@@ -1,11 +1,10 @@
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     min-height: 85%;
-}
 
-.menu_cards{
+    .menu_cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -13,24 +12,22 @@ main{
         box-sizing: border-box;
         min-height: 75%;
         order: 1;
-}
-
-.menu_selecteur {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        padding-left: 48px;
-        padding-right: 48px;
+        .menu_selecteur {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            padding-left: 48px;
+            padding-right: 48px;
+        }
     }
-
-.menu_soon {
+    .menu_soon {
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 10%;
         padding: 2% 0 2% 0;
         order: 2;
-        h2{
+        h2 {
             margin-right: 12px;
         }
 
@@ -51,3 +48,4 @@ main{
             animation-delay: 400ms;
         }
     }
+}

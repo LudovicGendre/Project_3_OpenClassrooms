@@ -4,7 +4,7 @@ main {
   justify-content: space-around;
   min-height: 85%;
 }
-.menu_cards {
+main .menu_cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,14 +13,14 @@ main {
   min-height: 75%;
   order: 1;
 }
-.menu_selecteur {
+main .menu_cards .menu_selecteur {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding-left: 48px;
   padding-right: 48px;
 }
-.menu_soon {
+main .menu_soon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,10 +28,10 @@ main {
   padding: 2% 0 2% 0;
   order: 2;
 }
-.menu_soon h2 {
+main .menu_soon h2 {
   margin-right: 12px;
 }
-.menu_soon span {
+main .menu_soon span {
   font-size: 33px;
   margin-bottom: 15px;
   animation: soon;
@@ -39,9 +39,9 @@ main {
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 }
-.menu_soon span:nth-child(2) {
+main .menu_soon span:nth-child(2) {
   animation-delay: 200ms;
 }
-.menu_soon span:nth-child(3) {
+main .menu_soon span:nth-child(3) {
   animation-delay: 400ms;
 }
