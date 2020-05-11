@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Chilanka|Devonshire|Itim|Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Kurale&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 body {
   margin: 0;
   background-color: white;
@@ -470,6 +471,7 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
 }
 .menu_cards .list_menu article ul li .price {
   margin: 0;
+  font-weight: bold;
 }
 .menu_cards .list_menu article ul li .food {
   margin: 0;
@@ -500,10 +502,14 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   background-color: #fff5fe;
 }
 .menu_cards .list_menu--chic .list_title {
+  font-family: "Kurale", sans-serif, serif;
   background: #d17122;
   background: linear-gradient(90deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.menu_cards .list_menu--chic article {
+  font-family: "Lato", sans-serif, serif;
 }
 .menu_cards .list_menu--chic article:nth-of-type(1) ul {
   color: #d17122;
@@ -638,6 +644,9 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   .menu_cards .list_menu .list_footer {
     font-size: 22px;
   }
+  .menu_cards .list_menu .list_footer img {
+    width: 24px;
+  }
 }
 @media all and (max-width: 760px) {
   .menu_cards .list_menu article {
@@ -647,6 +656,12 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
     align-items: center;
     flex-direction: column;
     text-align: center;
+  }
+  .menu_cards .list_menu .list_footer {
+    font-size: 18px;
+  }
+  .menu_cards .list_menu .list_footer img {
+    width: 24px;
   }
 }
 @media all and (max-width: 360px) {
@@ -675,6 +690,9 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
   }
   .menu_cards .list_menu .list_footer {
     font-size: 18px;
+  }
+  .menu_cards .list_menu .list_footer img {
+    width: 24px;
   }
 }
 @media all and (max-width: 260px) {
