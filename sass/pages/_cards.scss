@@ -153,6 +153,7 @@
         &--delice {
             background-color: $delice-color;
             .list_title {
+                font-family: "Dancing Script", sans-serif, serif;
                 background: rgb(21, 48, 183);
                 background: linear-gradient(
                     90deg,
@@ -163,11 +164,15 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
+            article {
+                font-family: "Indie Flower", sans-serif, serif;
+            }
         }
 
         &--palette {
             background-color: $palette-color;
             .list_title {
+                font-family: "Kaushan Script", sans-serif, serif;
                 background: rgb(85, 146, 77);
                 background: linear-gradient(
                     90deg,
@@ -177,6 +182,9 @@
                 );
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
+            }
+            article {
+                font-family: "Indie Flower", sans-serif, serif;
             }
         }
         @media all and (min-width: 1450px) {
