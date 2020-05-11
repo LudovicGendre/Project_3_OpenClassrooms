@@ -613,12 +613,12 @@ footer .mention_legals a:hover, footer .contact_us a:hover {
     width: 50px;
   }
 }
-@media all and (min-width: 760px) and (max-width: 1024px) {
+@media all and (min-width: 760px) and (max-width: 1023px) {
   .menu_cards .list_menu {
     width: 430px;
-    height: 850px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 750px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
   .menu_cards .list_menu .list_title {
     font-size: 24px;
