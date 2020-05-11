@@ -73,6 +73,7 @@
                     margin-bottom: 8px;
                     .price{
                         margin: 0;
+                        font-weight: bold;
                     }
                     .food{
                         margin: 0;
@@ -107,6 +108,7 @@
         &--chic {
             background-color: $chic-color;
             .list_title {
+                font-family: "Kurale", sans-serif, serif;
                 background: rgb(209, 113, 34);
                 background: linear-gradient(
                     90deg,
@@ -118,6 +120,7 @@
                 -webkit-text-fill-color: transparent;
             }
             article {
+                font-family: "Lato", sans-serif, serif;
                 ul {
                 }
                 &:nth-of-type(1) {
@@ -275,6 +278,9 @@
             }
             .list_footer {
                 font-size: 22px;
+                img {
+                    width: 24px;
+                }
             }
         }
         @media all and (max-width: 760px) {
@@ -284,6 +290,12 @@
                     align-items: center;
                     flex-direction: column;
                     text-align: center;
+                }
+            }
+            .list_footer {
+                font-size: 18px;
+                img {
+                    width: 24px;
                 }
             }
         }
@@ -313,6 +325,9 @@
             }
             .list_footer {
                 font-size: 18px;
+                img {
+                    width: 24px;
+                }
             }
         }
         @media all and (max-width: 260px) {
