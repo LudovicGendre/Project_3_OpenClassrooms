@@ -148,18 +148,7 @@ header {
   min-height: 10%;
 }
 header h1 {
-  display: flex;
   margin: auto;
-  width: 100%;
-  text-align: center;
-  height: 100%;
-}
-header a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  color: #ffd900;
 }
 
 main {
